@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+<config>
+    <default>
+        <some>
+            <random>
+                <xpath>Here is a value</xpath>
+            </random>
+        </some>
+    </default>
+    <stores>
+        <es>
+            <some>
+                <random>
+                    <xpath>Here is a Spanish view</xpath>
+                </random>
+            </some>
+        </es>
+    </stores>
+</config>
+
+-->
+
+
+<config>
+ <!--   
+<global>
+        <models>
+            <catalog>
+                <class>Mage_Catalog_Model</class>
+                
+-->
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <product_view>First_Module_Block_Product_View</product_view>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <models>
+            <catalog>
+                <rewrite>
+                    <product>First_Module_Model_Product</product>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+    
+    
+    
+</config>
