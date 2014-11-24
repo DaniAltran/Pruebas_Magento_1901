@@ -428,6 +428,7 @@
                 <class>Mage_Catalog_Block</class>
             </catalog>
         </blocks>
+        <!-- -->
         <index>
             <indexer>
                 <catalog_product_attribute>

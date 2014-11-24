@@ -39,12 +39,34 @@
                 </rewrite>
             </catalog>
         </blocks>
+        
+        <helpers>
+            <customer>
+                <rewrite>
+                    <address>First_Module_Helper_Address</address>
+                </rewrite>
+            </customer>
+            <sales>
+                <rewrite>
+                    <data>First_Module_Helper_Data</data>
+                </rewrite>
+            </sales>
+        </helpers>
+        
         <models>
             <catalog>
                 <rewrite>
                     <product>First_Module_Model_Product</product>
                 </rewrite>
             </catalog>
+            
+            <catalog_resource>
+                <rewrite>
+                    <product>First_Module_Model_Product_Resource_Model</product>
+                </rewrite>
+            </catalog_resource>
+            
+            
         </models>
     </global>
     

@@ -43,7 +43,7 @@ class Mage_Cms_IndexController extends Mage_Core_Controller_Front_Action
     {
         /*VIEW BLOCK*/
         
-        echo get_class(Mage::app()->getLayout()->createBlock('core/template'));
+        //echo get_class(Mage::app()->getLayout()->createBlock('core/template'));
         
         /*FI VIEW*/
 
@@ -53,9 +53,9 @@ class Mage_Cms_IndexController extends Mage_Core_Controller_Front_Action
         
        //echo get_class(Mage::getResourceModel('catalog/product'));
         
-        echo get_class(Mage::helper('sales/data'));
+       // echo get_class(Mage::helper('sales/data'));
        
-        die();
+        //die();
         
         /*FI MODEL*/
         
