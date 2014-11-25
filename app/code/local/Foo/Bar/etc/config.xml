@@ -13,6 +13,18 @@
                     <frontName>foo</frontName> <!-- ** IMPORTANT ** -->
                 </args>
             </foo_bar>
+            
+            <!-- with de firebug i inspeccioned de name of the class -->
+            <!-- <body class="catalog-category-view ....> -->
+            
+            <catalog>
+                <args>
+                    <modules>
+                        <foo_bar before='Mage_Catalog'>Foo_Bar_Catalog</foo_bar>
+                    </modules>
+                </args>
+            </catalog>
+            
         </routers>
     </frontend>
     
