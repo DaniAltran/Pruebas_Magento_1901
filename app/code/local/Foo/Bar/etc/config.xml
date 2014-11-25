@@ -2,6 +2,23 @@
 
 
 <config>
+    
+    
+    <frontend><!-- admin -->
+        <routers>
+            <foo_bar><!-- just needs to be unique -->
+                <use>standard</use> <!-- admin -->
+                <args>
+                    <module>Foo_Bar</module> <!-- etc/modules/Foo_Bar.xml -->
+                    <frontName>foo</frontName> <!-- ** IMPORTANT ** -->
+                </args>
+            </foo_bar>
+        </routers>
+    </frontend>
+    
+    
+    
+  
     <global>
         <models>
             <foo_bar>
