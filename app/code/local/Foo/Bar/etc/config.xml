@@ -8,19 +8,23 @@
                 <class>Foo_Bar_Model</class>
             </foo_bar>
         </models>
-        <!-- <frontend> -->
-            <events>
-                <catalog_product_load_after>
-                    <observers>
-                        <foo_bar>
-                            <type>model</type>
-                            <class>foo_bar/observer</class>
-                            <method>catalogProductLoadAfter</method>
-                        </foo_bar>
-                    </observers>
-                </catalog_product_load_after>
-            </events>
-       <!-- </frontend> -->
     </global>
+    <!-- <frontend> -->
+    <global>
+        <events>
+            <catalog_product_load_after><!-- event -->
+                <observers>
+                    <foo_bar><!-- unique for event -->
+                        <type>model</type>
+                        <!-- model | singleton* | disabled -->
+                        <class>foo_bar/observer</class>
+                        <method>catalogProductLoadAfter</method>
+                    </foo_bar>
+                </observers>
+            </catalog_product_load_after>
+        </events>
+    </global>
+    <!-- </frontend> -->
+   
 </config>
 
