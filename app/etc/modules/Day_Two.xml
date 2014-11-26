@@ -5,10 +5,10 @@
         <Day_Two>
             <active>true</active>
             <codePool>local</codePool>
-            <depends>
+            <!--<depends>
                
                 <Mage_Log/>
-            </depends>
+            </depends>-->
         </Day_Two>
     </modules>
 </config>
