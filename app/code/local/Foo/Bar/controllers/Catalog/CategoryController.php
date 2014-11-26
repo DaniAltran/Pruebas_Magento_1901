@@ -8,6 +8,5 @@ class Foo_Bar_Catalog_CategoryController extends Mage_Catalog_CategoryController
        die ('I\'t worked');
         
     }
-    
-    
+   
 }
