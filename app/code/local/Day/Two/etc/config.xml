@@ -24,7 +24,7 @@
                 <use>standard</use>
                 <args>
                     <module>Day_Two</module>
-                    <frontName>heyo</frontName>
+                    <frontName>custom</frontName>
                 </args>
             </day_two>
         </routers>
