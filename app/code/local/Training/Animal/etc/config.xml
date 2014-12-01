@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <global>
+        <models>
+            <training>
+                <class>Training_Animal_Model</class>
+                <resourceModel>training_animal_resource</resourceModel>
+            </training>
+            <training_animal_resource>
+                <class>Training_Animal_Model_Mysql4</class>
+                <entities>
+                    <animal>
+                        <table>training_animal_entity</table>
+                    </animal>
+                </entities>
+            </training_animal_resource>
+        </models>
+    </global> 
+</config>
