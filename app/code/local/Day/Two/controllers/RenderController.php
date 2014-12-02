@@ -26,7 +26,20 @@ class Day_Two_RenderController extends Mage_Core_Controller_Front_Action
         
         $this->getResponse()->setBody($blockHtml);
         
-        //Mage::log($blockHtml,Zend_log::INFO,'override_log',true);
+        //Mage::log($blockHtml,Zend_log::INFO,'template_log',true);
     }
+    
+     public function registryAction()
+    {
+         
+        Mage::register('some_var','some value');
+         
+        $blockHtml = $this->getLayout()->createBlock('day_two/registry')->setTemplate('day_two/registry.phtml')->toHtml();
+        
+        $this->getResponse()->setBody($blockHtml);
+        
+        //Mage::log($blockHtml,Zend_log::INFO,'registry_log',true);
+    }
+    
 }
 
