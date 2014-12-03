@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout>
+    
+    <default>
+        <reference name="content">
+            <block type="core_text" name="oops">
+                <action method="setText">
+                    <arg><h1>This is some text!</h1></arg>
+                </action>
+            </block>
+        </reference>
+    </default>
+    
+    <cool_handle>   
+    
+    </cool_handle>
+</layout>

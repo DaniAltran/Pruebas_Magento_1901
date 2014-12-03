@@ -60,5 +60,10 @@ class Day_Two_RenderController extends Mage_Core_Controller_Front_Action
         $this->renderLayout();
     }
     
+    public function layoutAction()
+    {
+        $this->loadLayout()->renderLayout();
+    }
+    
 }
 

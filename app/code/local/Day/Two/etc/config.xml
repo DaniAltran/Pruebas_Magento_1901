@@ -39,6 +39,16 @@
                 </args>
             </day_two>
         </routers>
+        
+        <layout>
+            <updates>
+                <dani_layout>
+                    <file>day_two/custom.xml</file>
+                </dani_layout>
+            </updates>
+        </layout>
+        
+        
     </frontend>
     
 </config>
