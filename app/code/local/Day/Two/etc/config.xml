@@ -11,6 +11,12 @@
                     <product_view>Day_Two_Block_Catalog_Product_View</product_view>
                 </rewrite>
             </catalog>
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>Day_Two_Block_Html_Breadcrumbs</html_breadcrumbs>
+                </rewrite>
+            </page>
+            
         </blocks>
         <helpers>
             <day_two>
