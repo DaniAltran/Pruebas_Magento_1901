@@ -16,5 +16,47 @@
                 </entities>
             </training_animal_resource>
         </models>
+        
+        <!-- no comprovat -->
+        
+        <resources>
+            <training_animal_setup>
+                <setup>
+                    <module>Training_Animal</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+            </training_animal_setup>
+        </resources>
+        
+        
+        <!-- no comprovat -->
+        
+     
+        
+        
     </global> 
+    
+       <admin>
+            <routers>
+                <adminhtml>
+                    <args>
+                        <modules>
+                            <training after="Mage_Adminhtml">Training_Animal_Adminhtml</training>
+                        </modules>
+                    </args>
+                </adminhtml>
+            </routers>
+        </admin>
+        
+        <adminhtml>
+            <layout>
+                <updates>
+                    <training>
+                        <file>training/animal.xml</file>
+                    </training>
+                </updates>
+            </layout>
+        </adminhtml>
+        
+        
 </config>

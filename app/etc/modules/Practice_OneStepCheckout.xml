@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Practice_OneStepCheckout>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends> <!-- el modul s'activa nomes quant aquests tres estan activats!! -->
+                <Mage_Sales/>
+                <Mage_CatalogInventory/>
+                <Mage_Checkout/>
+            </depends>
+        </Practice_OneStepCheckout>
+    </modules>
+</config>
+
