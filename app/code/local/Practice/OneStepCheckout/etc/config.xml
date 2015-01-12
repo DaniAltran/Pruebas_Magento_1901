@@ -46,4 +46,17 @@
         </blocks>
     </global>
     
+    <stores>
+        <default>
+            <design>
+                <theme>
+                    <layout>practice</layout>
+                    <template>practice</template>
+                    <skin>practice</skin>
+                </theme>
+            </design>
+        </default>
+    </stores>
+    
+    
 </config>
