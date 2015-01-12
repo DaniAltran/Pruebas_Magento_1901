@@ -10,14 +10,16 @@
     
     <frontend>
         <routers>
-            <checkout>
+            <checkout><!-- we use and existing one from core --> 
                 <args>
                     <modules>
+                        <!-- abans fara servir el nostre controlador Practice_OneStepCheckout i sino el troba el Mage_Checkout -->
                         <onestepcheckout before="Mage_Checkout">Practice_OneStepCheckout</onestepcheckout>
                     </modules>
                 </args>
             </checkout>
         </routers>
+        
         <layout>
             <updates>
                 <onestepcheckout>
@@ -27,5 +29,21 @@
         </layout>
         
     </frontend>
+    <!--
+    <global>
+        <blocks>
+            <onestepcheckout><class>Practice_OneStepCheckout_Block</class></onestepcheckout>
+        </blocks>
+    </global>
+    -->
+    <global>
+        <blocks>
+            <checkout>
+                <rewrite>
+                    <onepage>Practice_OneStepCheckout_Block_Onestep</onepage>
+                </rewrite>
+            </checkout>
+        </blocks>
+    </global>
     
 </config>
