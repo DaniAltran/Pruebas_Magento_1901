@@ -24,6 +24,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
+/*Simple comentario para poder ver los cambios en la rama git correspondiente*/
+/*nueva ramita*/
+
 if (version_compare(phpversion(), '5.2.0', '<')) {
     echo 'It looks like you have an invalid PHP version. Magento supports PHP 5.2.0 or newer';
     exit;
